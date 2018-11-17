@@ -1,5 +1,5 @@
 [version]
-^0.63.0
+^0.78.0
 
 [ignore]
 <PROJECT_ROOT>/.*/__tests__/.*
@@ -15,3 +15,11 @@
 
 [options]
 
+[strict]
+deprecated-type
+nonstrict-import
+sketchy-null
+unclear-type
+unsafe-getters-setters
+untyped-import
+untyped-type-import
